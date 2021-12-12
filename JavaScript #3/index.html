@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Tutorial</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" ></script>
+    
+</head>
+<body>
+    <div class="block1">
+        <p>Top left corner:
+            <input type="range" id="rtl" min="0" max="100" value="0" oninput="fun1()">
+            <input type="text" id="ttl" value="0">
+        </p>
+        <p>Top right corner:
+            <input type="range" min="0" max="100" id="rtr" value="0" oninput="fun1()">
+            <input type="text" id="ttr" value="0">
+        </p>
+        <p>Bottom right corner:
+            <input type="range" min="0" max="100" id="rbr" value="0" oninput="fun1()">
+            <input type="text" id="tbr" value="0">
+        </p>
+        <p>Bottom left corner:
+            <input type="range" min="0" max="100" id="rbl" value="0" oninput="fun1()">
+            <input type="text" id="tbl" value="0">
+        </p>
+    </div>
+    <div id="block"></div>
+</body>
+</html>
